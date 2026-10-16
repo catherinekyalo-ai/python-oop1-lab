@@ -144,3 +144,14 @@ Before you submit your solution, you need to save your progress with git.
   * Click on + Create Submission. Connect your repository for this lab.
   * For additional information on submitting assignments in CodeGrade: [Getting Started in Canvas](https://help.codegrade.com/for-students/getting-started/getting-started-in-canvas)
 
+
+## Python OOP Lab: Book and Coffee
+
+Two classes with validated properties:
+
+- `Book(title, page_count)`: `page_count` must be an integer, and `turn_page()` prints a message.
+- `Coffee(size, price)`: `size` must be Small, Medium or Large, and `tip()` prints a message and adds 1 to the price.
+
+Run the tests with `pytest`.
+
+![Tests passing](screenshot.png)
